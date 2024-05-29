@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medico.in - Home</title>
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        nav, ul, .section-1, .section-2, .section-4{
+            color: rgb(36, 2, 53);
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            background-color: aliceblue;
+            padding: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(16, 2, 63);
+            font-weight: bolder;
+        }
+        
+        button{
+            padding: 10px;
+            border: 2px solid rgb(244, 240, 244);
+            color: rgb(252, 252, 254);
+            background-color: blueviolet;
+            width: 200px;
+            border-radius: 40px;
+        }
+        h1{
+            text-align: center;
+        }
+        footer{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: rgb(43, 192, 226);
+        }
+        input, fieldset, textarea{
+            padding: 15px;
+            background-color: white;
+            border-radius: 40px;
+            width: 600px;
+        }
+        h1:hover{
+            color: rgb(106, 2, 109);
+        }
+        button:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!--NavBar-->
+    <nav>
+        <h1>medico.in</h1>
+        <ul style="width: 400px;">
+            <a href="#main"><li >Home</li></a>
+            <a href="#about"><li >About</li></a>
+            <a href="#contact"><LI >Contact</LI></a>
+            <a href="#gallery"><li >Gallery</li></a>
+        </ul>
+    </nav>
+
+    <!--Main Content-->
+    <main>
+
+        <!--Landing-->
+        <div class="section-1" style="padding: 100px;" id="main">
+           <div class="txt">
+            <h1>Doctors are those who not only treat, <br> But make you Heal Mentally and Physically.</h1>
+            <button type="submit">Book an Appointment</button>
+           </div>
+           <img src="/Project_Medico/assets/media/appointment.png" alt="" width="320">
+        </div>
+
+        <!--About-->
+        <h1>About Us</h1>
+        <div class="section-2" id="about">
+            <div class="txt">
+                <h4 style="line-height: 50px;">Started in early 1970s as a doctor's supplier, <br> Medico soon became a leading wholesaler of pharmaceuticals in Mumbai. <br> Further expanding into diagnostics through Techno-Commercial expertise, <br> we are now established as one of the leading distributors for diagnostic equipment in western India.</h4>
+                <button>Know More</button>
+            </div>
+           
+            <img src="/Project_Medico/assets/media/medico.webp" alt="" width="320">
+        </div>
+
+        <!--Gallery-->
+        <div class="section-3" id="gallery">
+            <h1>Gallery</h1>
+            <img src="/Project_Medico/assets/media/doctorsday.jpg" alt="" width="320">
+            <img src="/Project_Medico/assets/media/treatment.jpg" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctors-1.webp" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctors-2.avif" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctorsday.jpg" alt="" width="320">
+            <img src="/Project_Medico/assets/media/treatment.jpg" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctors-1.webp" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctors-2.avif" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctorsday.jpg" alt="" width="320">
+            <img src="/Project_Medico/assets/media/treatment.jpg" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctors-1.webp" alt="" width="320">
+            <img src="/Project_Medico/assets/media/doctors-2.avif" alt="" width="320">
+        </div>
+
+        
+        <!--contact-->
+        <div class="section-4" style="padding-top: 50px;" id="contact">
+            <fieldset><h1>Contact Us</h1>
+                <form action="" >
+                    <label for="name">Name : </label> <br>
+                    <input type="text" placeholder="Enter your Name"> <br><br>
+        
+                    <label for="phone">Phone Number : </label> <br>
+                    <input type="number" placeholder="Enter your Number"> <br><br>
+
+                    <label for="email">Email Id : </label> <br>
+                    <input type="email" placeholder="Enter your email Id"> <br><br>
+        
+                    <label for="cmts">Comments & Suggestions : </label> <br> <br>
+                    <textarea name="cmts" id="" rows="5" cols="30"  placeholder="Enter your Requests and Comments "></textarea>
+                    <br><br>    
+                    <button style="margin-left: 10px;width: 600px;" type="submit">Submit</button>
+                </form>
+            </fieldset>
+        </div>
+       
+
+    </main>
+
+    <!--footer-->
+    <footer>
+        <div class="txt" id="footer">
+            <h5>Call Us on :  0863-909090, +91-0000-0000-00 </h1>
+            <h5>Email : medico@info.com</h1>
+            <h5>Vist Us : <a href="www.medico.org">www.medico.in</a></h5>
+        </div>
+        <h1>medico.in</h1>
+    </footer>
+
+
+</body>
+</html>
